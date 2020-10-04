@@ -27,5 +27,6 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1574
 
  - 이런 룰이 '브릿지' 때문이라는 점이다. 브릿지가 Native하게 바꿔줘야 하니까!
 
- - React-Native는 CSS엔진도 있기때문에 CSS 처럼 문법을 사용할 수 있다! like Flex-box / 차이점은 js object처럼 써줘야 한다. 예외가 몇 몇 경우가 있다. 이런 것을 *StyleSheet API* 라고 한다. 
+ - React-Native는 CSS엔진도 있기때문에 CSS 처럼 문법을 사용할 수 있다! like Flex-box / 차이점은 js object처럼 써줘야 한다. 예외가 몇 몇 경우가 있다. 이런 것을 *StyleSheet API* 라고 한다.
+ 
 	하지만 당연히 예외가 있다. 부모의 컬러를 안따른다던지, 부모의 box style과 달라진다던지 등의 경우는 분명히 존재한다. 
