@@ -23,7 +23,7 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1574
 
 ## React-Native 태그
 
- - xml 태그 처럼 react와 조금 다르게 React-Native 가 가지는 tag들의 특징들이 있다. 가령 <View>와 그리고 모든 String values (표기할 글자들)은 <Text>안으로 들어가야 한다. 지금은 가볍게 <div>라고 생각하고 넘어가자 
+ - xml 태그 처럼 react와 조금 다르게 React-Native 가 가지는 tag들의 특징들이 있다. 가령 <View>와 그리고 모든 String values (표기할 글자들)은 <Text>안으로 들어가야 한다. 지금은 가볍게 div 정도로 생각하고 넘어가자 
 
  - 이런 룰이 '브릿지' 때문이라는 점이다. 브릿지가 Native하게 바꿔줘야 하니까!
 
