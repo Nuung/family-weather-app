@@ -16,5 +16,12 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1575
  - Activety / 화면구성, 액티비티 자체를 컴포넌트로 분리할 수 있다. Loading.js 파일 참조
  - 그리고 App.js에서 스타일 시트 등 모두 필요 없을 수 있고, Loading 컴포넌트만 (우리가 만든) 불러오면 된다. 마치 xml 느낌으로 접근 가능! 
  - style을 이제 그 컴포넌트에서 우리가 원하는 대로 바꾸면된다. 코드 참조 
+https://github.com/Nuung/weather-app/blob/master/Loading.js 
 
- ## 
+# 1.2 Getting the Location (07:19)
+https://nomadcoders.co/react-native-fundamentals/lectures/1577
+
+###
+
+## Geolocation
+ - 리액트 네이티브로 가서 API ~ geolocation 살펴보자 

@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 // import { StyleSheet, Text, View } from 'react-native'; 대신에 아래를 쓰면 된다 이제 
 import Loading from "./Loading";
