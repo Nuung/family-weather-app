@@ -27,9 +27,13 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1577
  - 리액트 네이티브로 가서 API ~ geolocation 살펴보자!
      ```
     The Geolocation API extends the Geolocation web spec.
-    As a browser polyfill, this API is available through the navigator.geolocation global - you do not need to import it.
+    As a browser polyfill, this API is available through the navigator.
+    geolocation global - you do not need to import it.
 
-    On Android, this uses the android.location API. This API is not recommended by Google because it is less accurate and slower than the recommended Google Location Services API. In order to use it with React Native, use the react-native-geolocation-service module.
+    On Android, this uses the android.location API. This API is not 
+    recommended by Google because it is less accurate and slower than the 
+    recommended Google Location Services API. In order to use it with 
+    React Native, use the react-native-geolocation-service module.
     ```
  - 임포트 해줄 필요는 없지만, 일단 그닥 powerful하지 못하다. 그래도 getCurrentPosition 함수만 필요하다 어짜피!
 
