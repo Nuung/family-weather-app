@@ -6,8 +6,15 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1575
 ## Layouts
  - React Native에서 모든 flex box의 디폴트는 flexDirection이 컬럼이다. 
  - 반면 웹사이트에서 모든 flex박스의 디폴트는 row이다. 아래 사진에서 flex와 부모 자식간에 어떻게 달라지는지 살펴보자 
- <div style="text-align: center">
+ <div style="text-align: center;">
     <img src="./class6_img1.png" width = "60%" />
     <img src="./class6_img2.png" width = "60%" />
  </div>
  - 그랴서 레이아웃을 기본적으로 flex 기반으로 출발하는 것을 추천한다! 
+
+## Loading Screen
+ - Activety / 화면구성, 액티비티 자체를 컴포넌트로 분리할 수 있다. Loading.js 파일 참조
+ - 그리고 App.js에서 스타일 시트 등 모두 필요 없을 수 있고, Loading 컴포넌트만 (우리가 만든) 불러오면 된다. 마치 xml 느낌으로 접근 가능! 
+ - style을 이제 그 컴포넌트에서 우리가 원하는 대로 바꾸면된다. 코드 참조 
+
+ ## 
