@@ -57,3 +57,8 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1577
       <div style="text-align: center;">
          <img src="./class9_img1.png" width = "60%" />
       </div>
+
+## Getting the Weather
+ - [OpenWeather](https://openweathermap.org/api) 이라는 공개 API를 이용해 지역에 따른 날씨 정보를 가져오자!
+ - 회원 가입 -> 로그인 -> Api Key 만들기! 'Create Key!'
+ 
