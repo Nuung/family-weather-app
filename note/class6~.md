@@ -37,4 +37,10 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1577
     ```
  - 임포트 해줄 필요는 없지만, 일단 그닥 powerful하지 못하다. 그래도 getCurrentPosition 함수만 필요하다 어짜피!
 
+ - expo에서는 location 이라는 object를 통해서 좀 더 많은 기능을 사용할 수 있는 것을 확인 할 수 있다! [ 살펴보자! ](https://docs.expo.io/versions/latest/sdk/location/#locationinstallwebgeolocationpolyfill)
+    - GeoFencing : 만약 사용자가 이 위치에오면 어떤 인터렉션을 할지 이 함수를 통해 구현이 가능하다 .
+    ``` expo install expo-location ```
+
+ - **import * as Location from "expo-location";** 으로 다운로드한 모듈을 임포트해서 사용할 수 있다. => 코드 참조하기
+
  - 
