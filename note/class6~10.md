@@ -7,8 +7,8 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1575
  - React Native에서 모든 flex box의 디폴트는 flexDirection이 컬럼이다. 
  - 반면 웹사이트에서 모든 flex박스의 디폴트는 row이다. 아래 사진에서 flex와 부모 자식간에 어떻게 달라지는지 살펴보자 
  <div style="text-align: center;">
-    <img src="./class6_img1.png" width = "60%" />
-    <img src="./class6_img2.png" width = "60%" />
+   <img src="./class6_img1.png" width = "60%" />
+   <img src="./class6_img2.png" width = "60%" />
  </div>
  - 그랴서 레이아웃을 기본적으로 flex 기반으로 출발하는 것을 추천한다! 
 
@@ -43,4 +43,17 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1577
 
  - **import * as Location from "expo-location";** 으로 다운로드한 모듈을 임포트해서 사용할 수 있다. => 코드 참조하기
 
- - 
+# 1.3 Asking for Permissions (07:41)
+
+###
+
+## Permission? 
+ - [ 접근 권한에 대한 글! ](https://blog.naver.com/n_privacy/220974897382)
+
+ - location 정보는 사용자(client)에게 꼭 접근 권한을 받아야함. **try - catch 구문**을 이용해보자! 
+      - 우리가 permission을 물어보는 것 자체를 만들 필요는 없다!
+      - consloe log에 Object 찍이는 것들을 보자! 객체들이 다양한 정보를 이미 가지고 있다! expo를 쓰면 이렇게 간단하는 것이다.
+      - >그 object 내부의 'coords' object를 사용할 것이다. ``` console.log(location.coords.altitude, location.coords.longitude); ```
+      <div style="text-align: center;">
+         <img src="./class9_img1.png" width = "60%" />
+      </div>
