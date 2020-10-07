@@ -13,4 +13,5 @@ web-build/
 .DS_Store
 
 # user
-env
+*.env
+env.*
