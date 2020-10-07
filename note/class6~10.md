@@ -61,3 +61,9 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1577
 ## Getting the Weather
  - [OpenWeather](https://openweathermap.org/api) 이라는 공개 API를 이용해 지역에 따른 날씨 정보를 가져오자!
  - 회원 가입 -> 로그인 -> Api Key 만들기! 'Create Key!'
+ - [Api key를 환경변수로 저장하고 깃에는 올리지 말자!](https://github.com/Nuung/weather-app/blob/master/note/env_setting.md)
+ - API docs에서 **By geographic coordinates** 를 이용하자!
+ ```api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}```
+ - 위와 같은 API를 사용하기 위해 **axios**를 사용한다 ```yarn add axios````
+ - getWeather 함수를 async 로 만들어주자! -> lat, lon 값 + api key로 templete String을 이용해서 data를 가져오자!
+ - 추가로, API 추가 질의 항목이 있다! units인데 celsius는 화씨, metric 섭씨이다. 기본이 화씨니까 바꿔주자
