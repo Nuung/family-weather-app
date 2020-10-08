@@ -28,8 +28,17 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1580
  ``` <MaterialCommunityIcons size={96} name="weather-lightning-rainy" /> ```
  - 컨테이너를 2개로 분리하고, 좀 더 이쁘게 스타일링을 해주자! 
 
- ## Linear Gradient
+## Linear Gradient
  - 스타일링과 레이아웃을 더 이쁘게 하기 위해서 linear-gradient 모듈을 추가로 사용하자 [Link for Docs](https://docs.expo.io/versions/latest/sdk/linear-gradient/)
  - ```import { LinearGradient } from 'expo-linear-gradient';```
  - 간단하게 보면, 컴포넌트 위에 또 다른 컴포넌트를 말하는 것이라고 할 수 있다. -> **View 대신** 사용 가능하다. 
- - 
+ - 제일 바깥 쪽 view 대신 예제에 나와있는 것으로 덮어 쒸우자!
+ - 상단 바의 컬러감 매치를 위해서 ```<StatusBar barStyle="light-content" />``` 도 추가해주자! 
+ - **weatherOptions** object를 이용해 api로 전달 받은 날씨 정보를 기반으로 state ~ props 를 이용해 날씨에 맞는 배경과 아이폰, text를 설정해줄 것이다. 
+   - Weather 컨테이너에서 ```weatherOptions[condition].gradient``` 를 이용해서! 
+   - 하지만 만약 전달 해준 state 값 (condition)이 우리가 미리 만들어둔 weatherOptions 없다면? error를 일르킨다! 
+   > 그래서 우리는 default 이미지, 배경, 정보 등이 필요하다! or 을 써서 아래와 같이 사용한다! 
+   - ``` {weatherOptions[condition].iconName || "weather-sunset"} ```
+
+## Titles and Subtitles
+ - 가
