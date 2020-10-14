@@ -41,4 +41,11 @@ https://nomadcoders.co/react-native-fundamentals/lectures/1580
    - ``` {weatherOptions[condition].iconName || "weather-sunset"} ```
 
 ## Titles and Subtitles
- - 가
+ - Front 디자인, 날씨 정보 표현, 추가 정보 표현을 위해 'weatherOptions'에 title, subtitle을 추가하자. 아래와 같아진다.
+ - <div style="text-align: center;">
+      <img src="./imgs/class16_img1.png" width = "60%" />
+   </div>
+ - 자연스럽게 Text 컴포넌트가 더 추가 된다. ```<Text style={styles.subtitle}>{weatherOptions[condition].subtitle}</Text>```
+ - Style만 맞춰주면 됨! 코드 참고 하길! 
+
+###
